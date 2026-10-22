@@ -2,25 +2,25 @@
     <sys_user_role action="INSERT_OR_UPDATE">
         <assignable_by/>
         <can_delegate>true</can_delegate>
-        <description>Default admin role</description>
+        <description>Can raise onboarding requests and track progress. Sees only requests they raised.</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id>BhHLr56hBPwUCX6ait57Niv5U9WLECSSTl1IQuhxqyw=</federated_id>
+        <federated_id>syLolRqAqytla+xdbLC4HEyFewX4Fc3g3qfLgX2vXmg=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
-        <name>x_2218141_zenvor_0.admin</name>
+        <name>x_2218141_zenvor_0.hiring_manager</name>
         <scoped_admin>false</scoped_admin>
-        <suffix>admin</suffix>
+        <suffix>hiring_manager</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-21 12:23:20</sys_created_on>
-        <sys_id>a5b26f7193c8135003eefef7dd03d663</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_2218141_zenvor_0.admin</sys_name>
+        <sys_created_on>2026-10-22 10:28:45</sys_created_on>
+        <sys_id>9fe1d01693c8935003eefef7dd03d669</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_2218141_zenvor_0.hiring_manager</sys_name>
         <sys_package display_value="Zenvora Employee Onboarding" source="x_2218141_zenvor_0">d1b26f7193c8135003eefef7dd03d612</sys_package>
         <sys_policy/>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
-        <sys_update_name>sys_user_role_a5b26f7193c8135003eefef7dd03d663</sys_update_name>
+        <sys_update_name>sys_user_role_9fe1d01693c8935003eefef7dd03d669</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-21 12:23:20</sys_updated_on>
+        <sys_updated_on>2026-10-22 10:41:13</sys_updated_on>
     </sys_user_role>
 </record_update>
