@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="ea21274f9300131003eefef7dd03d6f7" extends="task" label="Onboarding Request" max_length="40" name="x_2218141_zenvor_0_onboarding_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Laptop type" max_length="40" name="laptop_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Mac" sequence="1" value="Mac"/>
+                <element inactive_on_update="false" label="Windows" sequence="0" value="Windows"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Joining date" mandatory="true" max_length="40" name="joining_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Personal email" mandatory="true" max_length="40" name="personal_email" type="string"/>
+        <element label="Needs building access" max_length="40" name="needs_building_access" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Department" mandatory="true" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Laptop configuration" max_length="40" name="laptop_configuration" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Employment type" mandatory="true" max_length="40" name="employment_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Full-time" sequence="0" value="Full-time"/>
+                <element inactive_on_update="false" label="Contractor" sequence="1" value="Contractor"/>
+                <element inactive_on_update="false" label="Intern" sequence="2" value="Intern"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Reporting manager" mandatory="true" max_length="32" name="reporting_manager" reference="sys_user" type="reference"/>
+        <element label="Needs laptop" max_length="40" name="needs_laptop" type="boolean"/>
+        <element label="Needs mobile" max_length="40" name="needs_mobile" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="End date" max_length="40" name="end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Job title" mandatory="true" max_length="40" name="job_title" type="string"/>
+        <element label="New hire name" mandatory="true" max_length="32" name="new_hire_name" type="string"/>
+    </element>
+</database>

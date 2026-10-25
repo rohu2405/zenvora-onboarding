@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="73ca27cf9340131003eefef7dd03d650" extends="task" label="Onboarding Task" max_length="40" name="x_2218141_zenvor_0_onboarding_task" type="collection">
+        <element label="Onboarding request" mandatory="true" max_length="32" name="onboarding_request" reference="x_2218141_zenvor_0_onboarding_request" type="reference"/>
+        <element choice="1" label="Team" mandatory="true" max_length="40" name="team" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Facilities" sequence="3" value="Facilitie"/>
+                <element inactive_on_update="false" label="IT" sequence="1" value="IT"/>
+                <element inactive_on_update="false" label="HR" sequence="0" value="HR"/>
+                <element inactive_on_update="false" label="Facilities" sequence="2" value="Facilities"/>
+            </choice>
+        </element>
+        <element choice="1" label="Task type" mandatory="true" max_length="40" name="task_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Policy sign-off" sequence="1" value="Policy sign-off"/>
+                <element inactive_on_update="false" label="Laptop" sequence="5" value="Laptop"/>
+                <element inactive_on_update="false" label="Parking" sequence="9" value="Parking"/>
+                <element inactive_on_update="false" label="Mobile" sequence="6" value="Mobile"/>
+                <element inactive_on_update="false" label="Documentation" sequence="0" value="Documentation"/>
+                <element inactive_on_update="false" label="Orientation" sequence="2" value="Orientation"/>
+                <element inactive_on_update="false" label="Email account" sequence="3" value="Email account"/>
+                <element inactive_on_update="false" label="Desk" sequence="7" value="Desk"/>
+                <element inactive_on_update="false" label="System access" sequence="4" value="System access"/>
+                <element inactive_on_update="false" label="ID card" sequence="8" value="ID card"/>
+            </choice>
+        </element>
+    </element>
+</database>
