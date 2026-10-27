@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Default admin role</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_2218141_zenvor_0.admin</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 12:23:20</sys_created_on>
+        <sys_id>a5b26f7193c8135003eefef7dd03d663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2218141_zenvor_0.admin</sys_name>
+        <sys_package display_value="Zenvora Employee Onboarding" source="x_2218141_zenvor_0">d1b26f7193c8135003eefef7dd03d612</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
+        <sys_update_name>sys_user_role_a5b26f7193c8135003eefef7dd03d663</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 12:23:20</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</application>
+        <file_path/>
+        <instance_id>146cb08afb0f66185704f3585eefdc89</instance_id>
+        <instance_name>dev350797</instance_name>
+        <name>sys_user_role_a5b26f7193c8135003eefef7dd03d663</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Default admin role</description><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_2218141_zenvor_0.admin</name><scoped_admin>false</scoped_admin><suffix>admin</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-21 12:23:20</sys_created_on><sys_id>a5b26f7193c8135003eefef7dd03d663</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2218141_zenvor_0.admin</sys_name><sys_package display_value="Zenvora Employee Onboarding" source="x_2218141_zenvor_0">d1b26f7193c8135003eefef7dd03d612</sys_package><sys_policy/><sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope><sys_update_name>sys_user_role_a5b26f7193c8135003eefef7dd03d663</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-21 12:23:20</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1967376146</payload_hash>
+        <record_name>x_2218141_zenvor_0.admin</record_name>
+        <reverted_from/>
+        <source>2db26f7193c8135003eefef7dd03d659</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 12:23:20</sys_created_on>
+        <sys_id>edb26f7193c8135003eefef7dd03d669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a15e6a81080000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 12:23:20</sys_updated_on>
+        <type>Role</type>
+        <update_guid>adb26f71aec813501e9fcd9c8a53e168</update_guid>
+        <update_guid_history>adb26f71aec813501e9fcd9c8a53e168:-1967376146</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_2218141_zenvor_0.admin">ec65d49a93c8935003eefef7dd03d64f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-22 10:43:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>a24f3b46b8e24718ad257758bb84c9f1</sys_id>
+        <sys_metadata>a5b26f7193c8135003eefef7dd03d663</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2218141_zenvor_0.admin</sys_name>
+        <sys_package display_value="Zenvora Employee Onboarding" source="x_2218141_zenvor_0">d1b26f7193c8135003eefef7dd03d612</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
+        <sys_scope_delete display_value="">1401d734b6b9469f86c311b244c939d9</sys_scope_delete>
+        <sys_update_name>sys_user_role_a5b26f7193c8135003eefef7dd03d663</sys_update_name>
+        <sys_update_version display_value="sys_user_role_a5b26f7193c8135003eefef7dd03d663">edb26f7193c8135003eefef7dd03d669</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-22 10:43:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

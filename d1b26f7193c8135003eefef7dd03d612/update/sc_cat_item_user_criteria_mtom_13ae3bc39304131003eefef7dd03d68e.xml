@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Onboard a new hire">59bf270b9380131003eefef7dd03d630</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-25 11:37:56</sys_created_on>
+        <sys_id>13ae3bc39304131003eefef7dd03d68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Onboard a new hire.Hiring managers</sys_name>
+        <sys_package display_value="Zenvora Employee Onboarding" source="x_2218141_zenvor_0">d1b26f7193c8135003eefef7dd03d612</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_13ae3bc39304131003eefef7dd03d68e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-25 11:37:56</sys_updated_on>
+        <user_criteria display_value="Hiring managers">d47ef3c39304131003eefef7dd03d6d8</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>
