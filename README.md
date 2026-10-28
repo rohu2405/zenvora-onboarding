@@ -156,30 +156,28 @@ Assign target roles (x_2218141_zenvor_0.onboarding_request_user) to test user ac
 Developer: ServiceNow Application Developer
 
 Instance: PDI dev350797
-
-
-## 📸 Visual Proof of Work
+## 📸 Visual Proof of Work (Phases 0–5)
 
 ### 1. Studio Workspace & Application Structure
-![Studio Workspace](docs/screenshots/01-studio-workspace.png)
+![Studio Workspace](01-studio-workspace.png)
 
 ### 2. Data Model & Schema Definition
-![Data Model Schema](docs/screenshots/02-data-model-schema.png)
+![Data Model Schema](02-data-model-schema.png)
 
 ### 3. Role-Based Access Control (ACL)
-![ACL Security](docs/screenshots/03-acl-security.png)
+![ACL Security](03-acl-security.png)
 
 ### 4. Custom Form Layout & UI Design
-![Form UI Design](docs/screenshots/04-form-ui-design.png)
+![Form UI Design](04-form-ui-design.png)
 
 ### 5. Automated Workflow Logic (Flow Designer)
-![Flow Designer Logic](docs/screenshots/05-flow-designer-logic.png)
+![Flow Designer Logic](05-flow-designer-logic.png)
 
 ### 6. Approved Onboarding Request Record Lifecycle
-![Approved Record](docs/screenshots/06-approved-record.png)
+![Approved Record](06-approved-record.png)
 
 ### 7. Downstream Fulfillment Tasks
-![Fulfillment Tasks](docs/screenshots/07-fulfillment-tasks.png)
+![Fulfillment Tasks](07-fulfillment-tasks.png)
 
 ### 8. Outbound Email Notification Log
-![Email Log](docs/screenshots/08-email-notification.png)
+![Email Log](08-email-notification.png)
