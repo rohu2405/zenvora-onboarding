@@ -5,7 +5,7 @@
         <active>true</active>
         <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=5361000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=84563000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>29000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -16,14 +16,14 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>onboarding_approval_flow</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Onboarding Request Record","reference":"x_2218141_zenvor_0_onboarding_request","reference_display":"Onboarding Request","type":"reference","base_type":"reference","usedInstances":{"b25f0886-99c1-4537-b4ff-771ce5f12806":["record"],"5f411db6-24d3-4188-9d07-88cb29caae6b":["record"],"dae07063-ceb5-4ec1-84c7-5fc46b402ff3":["record"],"9065659c-19eb-4921-81ea-24663cda8073":["record"],"f1d6e407-1a4a-4d01-ae8f-6e84e28b4d22":["record"],"c5a79b8c-fc50-4711-a88a-c926aef7c44b":["record"],"a1cb163f-47d3-47d0-9ab5-e228a4dc05d0":["record"]},"attributes":{}},{"name":"Created_1.current.joining_date","label":"Trigger - Record Created➛Onboarding Request Record➛Joining date","reference":"","reference_display":"Joining date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_2218141_zenvor_0_onboarding_request","column_name":"joining_date","usedInstances":{"95fa4147-9561-48fd-bee0-b46d7d05d17b":["condition"]}},{"name":"Created_1.run_start_date_time","label":"Trigger - Record Created➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"95fa4147-9561-48fd-bee0-b46d7d05d17b":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.reporting_manager","label":"Trigger - Record Created➛Onboarding Request Record➛Reporting manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2218141_zenvor_0_onboarding_request","column_name":"reporting_manager","usedInstances":{"5f411db6-24d3-4188-9d07-88cb29caae6b":["approval_conditions"]}},{"name":"Created_1.current.reporting_manager.manager","label":"Trigger - Record Created➛Onboarding Request Record➛Reporting manager➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{}},{"name":"{{static.7ef558da93c8935003eefef7dd03d63f}}","label":"Onboarding HR","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"5f411db6-24d3-4188-9d07-88cb29caae6b":["approval_conditions"]}},{"name":"5f411db6-24d3-4188-9d07-88cb29caae6b.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"3601725a-2060-4ced-a93d-be36e325e282":["condition"],"ead62674-2aa1-4145-8049-19e1193ec87e":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"5f411db6-24d3-4188-9d07-88cb29caae6b.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"3601725a-2060-4ced-a93d-be36e325e282":["condition"],"ead62674-2aa1-4145-8049-19e1193ec87e":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.7ef558da93c8935003eefef7dd03d63f}}","label":"Onboarding HR","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"5f411db6-24d3-4188-9d07-88cb29caae6b":["approval_conditions"]}},{"name":"Created_1.current.reporting_manager.manager","label":"Trigger - Record Created➛Onboarding Request Record➛Reporting manager➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{}},{"name":"Created_1.current.reporting_manager","label":"Trigger - Record Created➛Onboarding Request Record➛Reporting manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2218141_zenvor_0_onboarding_request","column_name":"reporting_manager","usedInstances":{"5f411db6-24d3-4188-9d07-88cb29caae6b":["approval_conditions"]}},{"name":"Created_1.run_start_date_time","label":"Trigger - Record Created➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"95fa4147-9561-48fd-bee0-b46d7d05d17b":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.joining_date","label":"Trigger - Record Created➛Onboarding Request Record➛Joining date","reference":"","reference_display":"Joining date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_2218141_zenvor_0_onboarding_request","column_name":"joining_date","usedInstances":{"95fa4147-9561-48fd-bee0-b46d7d05d17b":["condition"],"cf9707c8-a916-452f-a603-3d9f96827336":["due_date"],"5e63cad1-f7bf-46b0-a643-acad2b42e5a8":["due_date"],"a6db853f-7614-468e-8b61-70f02e9e4d31":[null]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Onboarding Request Record","reference":"x_2218141_zenvor_0_onboarding_request","reference_display":"Onboarding Request","type":"reference","base_type":"reference","usedInstances":{"b25f0886-99c1-4537-b4ff-771ce5f12806":["record"],"5f411db6-24d3-4188-9d07-88cb29caae6b":["record"],"dae07063-ceb5-4ec1-84c7-5fc46b402ff3":["record"],"9065659c-19eb-4921-81ea-24663cda8073":["record"],"f1d6e407-1a4a-4d01-ae8f-6e84e28b4d22":["record"],"c5a79b8c-fc50-4711-a88a-c926aef7c44b":["record"],"a1cb163f-47d3-47d0-9ab5-e228a4dc05d0":["record"],"cf9707c8-a916-452f-a603-3d9f96827336":["short_description","parent"],"5e63cad1-f7bf-46b0-a643-acad2b42e5a8":["parent"],"a6db853f-7614-468e-8b61-70f02e9e4d31":["record"]},"attributes":{}},{"name":"Created_1.current.new_hire_name","label":"Trigger - Record Created➛Onboarding Request Record➛New hire name","reference":"","reference_display":"New hire name","type":"string","base_type":"string","parent_table_name":"x_2218141_zenvor_0_onboarding_request","column_name":"new_hire_name","usedInstances":{"5e63cad1-f7bf-46b0-a643-acad2b42e5a8":["short_description"],"cf9707c8-a916-452f-a603-3d9f96827336":["short_description"],"a6db853f-7614-468e-8b61-70f02e9e4d31":[null]}},{"name":"Created_1.current.personal_email","label":"Trigger - Record Created➛Onboarding Request Record➛Personal email","reference":"","reference_display":"Personal email","type":"string","base_type":"string","parent_table_name":"x_2218141_zenvor_0_onboarding_request","column_name":"personal_email","usedInstances":{"a6db853f-7614-468e-8b61-70f02e9e4d31":["ah_to"]}}]</label_cache>
         <master_snapshot>b1c8bd7f9308171003eefef7dd03d696</master_snapshot>
         <master_snapshot_digest/>
         <name>Onboarding Approval Flow</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>e490467f9348171003eefef7dd03d620</remote_trigger_id>
+        <remote_trigger_id>19be6e089398971003eefef7dd03d629</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -37,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fa1cadb793c4171003eefef7dd03d64d</sys_id>
-        <sys_mod_count>59</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name>Onboarding Approval Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Zenvora Employee Onboarding" source="x_2218141_zenvor_0">d1b26f7193c8135003eefef7dd03d612</sys_package>
@@ -45,11 +45,11 @@
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_update_name>sys_hub_flow_fa1cadb793c4171003eefef7dd03d64d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:24</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:28</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>7490467f9348171003eefef7dd03d680</version_record>
+        <version_record>b9be6e089398971003eefef7dd03d6c7</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=fa1cadb793c4171003eefef7dd03d64d"/>
     <sys_variable_value action="delete_multiple" query="document_key=fa1cadb793c4171003eefef7dd03d64d"/>
@@ -69,15 +69,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-27 10:22:24</sys_created_on>
+        <sys_created_on>2026-10-28 08:22:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e490467f9348171003eefef7dd03d620</sys_id>
+        <sys_id>19be6e089398971003eefef7dd03d629</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:24</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:27</sys_updated_on>
         <table>x_2218141_zenvor_0_onboarding_request</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -88,14 +88,14 @@
         <identifier_type>flow</identifier_type>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-10-27 10:22:24</sys_created_on>
-        <sys_id>e090467f9348171003eefef7dd03d621</sys_id>
+        <sys_created_on>2026-10-28 08:22:28</sys_created_on>
+        <sys_id>5dbe6e089398971003eefef7dd03d62a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:24</sys_updated_on>
-        <trigger display_value="">e490467f9348171003eefef7dd03d620</trigger>
+        <sys_updated_on>2026-10-28 08:22:28</sys_updated_on>
+        <trigger display_value="">19be6e089398971003eefef7dd03d629</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=fa1cadb793c4171003eefef7dd03d64d^sys_idNOT INe090467f9348171003eefef7dd03d621"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=fa1cadb793c4171003eefef7dd03d64d^sys_idNOT IN5dbe6e089398971003eefef7dd03d62a"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=fa1cadb793c4171003eefef7dd03d64d"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=fa1cadb793c4171003eefef7dd03d64d^sys_idNOT IN321cadb793c4171003eefef7dd03d653"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -305,7 +305,7 @@
         <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fa1cadb793c4171003eefef7dd03d64d^sys_idNOT IN31c1b9739308171003eefef7dd03d683,4cd0b5b793c4171003eefef7dd03d6f1,c747f1fb9308171003eefef7dd03d648,d3767d7b9308171003eefef7dd03d613"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fa1cadb793c4171003eefef7dd03d64d^sys_idNOT IN31c1b9739308171003eefef7dd03d683,4cd0b5b793c4171003eefef7dd03d6f1,85fca2889310971003eefef7dd03d61e,9c6bee809398971003eefef7dd03d60c,c747f1fb9308171003eefef7dd03d648,d3767d7b9308171003eefef7dd03d613,eafda6c49398971003eefef7dd03d6de"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
@@ -321,10 +321,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:17:46</sys_created_on>
         <sys_id>31c1b9739308171003eefef7dd03d683</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:23:44</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:24:24</sys_updated_on>
         <ui_id>5f411db6-24d3-4188-9d07-88cb29caae6b</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Yy27bOBT9lUBrx0NZliJ7F8QI0MFMAyRpN3Eg0CRlc0BTKkmlcQ3/e69E6lE7ce3CXWTSjQHeB3nu9Tl86GHtceqNvYs4HbDRaIBmPkIBQnFIUBywWXARXQSYIK/nSbxkEKkYyRSF8RMWRWlYr68Uw4bRxO+TQikmzWYDfsp1LvDqswsDC1lwQcHvjR8ee16OFcxomPLG6y3XoZAEnjEBobc1pm2MZpWXY5qRYgm4El4b/3GZE+c5+zABDySVcFDPY8+GScoAR4qFZj1viSXFJlMrb2xUAQaomd5IsWoiFlwaW+cSP2v+DRYOBmVcyqAw4nrQDBPXH2tOJ9jgO5iZmEI17co4Ydq2hLIUF8JcdW024CY3PJM2xeCZqLMzUSzlR9sQr5mg83cUGkCwvKyzRG7LSu8W2dfbGuQ1l1VHXIkiI1g0I2yM4rPClHDWHhOsavES5zmX8yRX2ROvkgHKsj8XMOinIvsKa2o+l31MStx96CruX4N9Upk/Y8XLIv6FaSB50/P0Sl8JrHVbCvQw+VKUSGxhroSk6oJtQZlHFM/NJazyxBzmTc/RfUb2cou0VLLTtWx/TgYDP/aHfvKNyadMJQiWnWVY0bJoxb4UTJtd9t80MWe3TcxxejgAc62Hewd6qwanhmqYVL4fxVClnX20DqcFf78WnKUVg2XRC1qI0RvSgivrzYvhZzpgwygI4eciDZA/8FHMojgmI4RJHEXhMGg5BAigBiyA4ljD3K0iTrDVHwCjpvalwwEycjheBejoruGPkfMtqt/VRkfzwZE0f33P96P3RPSC32912Vp2+vx7FFEu90ly2FA/lDyKBrNohGJ6TlM0Ox/GQXiOCUPnLPJDFtKIhH7wG1SE/H07M41fIGnKmeheomrHrpg6nuNEdQCqHVFdO1ivwXWSqoYvnSBV/tYJcjppxQi9JW29pwsV2Us21jlI/ssKJfcoIFlwXTHjVSV0Io5TxAEga0X8bVFuC2Ib/K/oIfijh/+/HobhXqp1LucNq0kmKS8R644q7M7M9KVcfXp44aXdVyzPlCn7ARzCc6Y2m8dd6fzqNMfp64Cimxd7IZj+WROcutqbnUvqKqy9DzqnU9nwVG/4Nyay9/JyIXu5lo5abtECGgR0736ymnoW9tQbTz2ZSTb1elOvjEpKclVmiABwjaOyrTd2XCjs0v3OsM2leKWrSE0WjAIzK+sPlqSSgrOf4nvZAR2p1Tcp2NnEtmS3SfWzqcZpu8J3zrY7F1DN9Nc9755x4cnOuOEf8Z3ikZQ0zwg4wGDvO6EiH78DAu7OaEQWAAA=</values>
@@ -345,15 +345,63 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:13:33</sys_created_on>
         <sys_id>4cd0b5b793c4171003eefef7dd03d6f1</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:23:44</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:24:24</sys_updated_on>
         <ui_id>b25f0886-99c1-4537-b4ff-771ce5f12806</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVy27iMBT9FeR1FOVBEWU3AiGN1CkSHbHpVJET34Al51HboVDEv8914oQIqg6VukHD7r7sc27Owc8HwhmZkCEwz7/3R0noh2HgecF46MejMPYDFlIAnzgkpxlgp4SkkAzjLRWVSRwOUwlUA4t8N6mkhFwfj1hnXJWC7le2DTPJhguGdTJ5fnFISSWeqEGSyeGsdC0kQWMQ2LpsMZ1j1PvSxKxIqgxxRbxNPtjJma0Mfs6wgkMGju85BHYacgYIJKVCgUMymjOqC7knEy0rTCBptsjFvuvY8Fw3RDO6U/wdbx56pi8FZJbYJXRhZBfUpNMZ1fQJT050Jbt9FTwB1eyEQUoroaf9XNOwKDUv8mZE01i004Wosvyx2QjpDuh9j0ohCCgNT4O8oZU+bYq3ZQtyzvN6JZaiKBIquohqLXlcaQPnQEBAveOMliXP11Epiy2vhxFK5q4FBm4qije8U/F17tLE4HZxq9SdY35Wp1dUckPiFx6Dw0eHqL2aCqrUiQruMHqtDJKGmKUQ1VuoVxDVSjDDieSl/oFXbcECPzpW9PHdZwpL7k+C6p15Ev4uCgJ/7A/96B3ybSEjDwHEBZXM0JfwWoHSl0ZYdD2DZdfzNWtcAby1xu9aEB8Tse64yD30ZwePTcF64+7bvDG+JW9YGjdvjn9Zwgs+/dPtKal2gerZQWl8BP5Unhey4aXqz6pf0/sVqFq9zzkIpj6A2YodMoSlIWpgnwneFgcrW+wehG9TvT/y6t8Naf+/eRde/gI1aVy0DgkAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4cd0b5b793c4171003eefef7dd03d6f1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Onboarding Approval Flow">fa1cadb793c4171003eefef7dd03d64d</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>ead62674-2aa1-4145-8049-19e1193ec87e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 08:14:48</sys_created_on>
+        <sys_id>85fca2889310971003eefef7dd03d61e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-10-28 08:24:24</sys_updated_on>
+        <ui_id>5e63cad1-f7bf-46b0-a643-acad2b42e5a8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VwU7jMBD9lcrnKHJSCNDbqojTLkgL4kIhcu1J68Wxs7ZT6Fb59x3HaalYKlhpL0jbm2fejN97nkzvNkQKMiFFBvT4LCv4OBuPc0rz06NsXoznWS7GDOCIJESzGhDp2VxB2R8SsmKqDUHHS8/cI0aEdI1i69shMWWeKbMY3cQsX0olLGgyubtPSMMstvFgyWTzKvVRUorNQSH0JrA6QNKvmzdjX/drR5cxYawIfGhC4NmDFoBEKqYcJKRmWjBv7JpMvG0xYIGJK63WO8RSao8NScA+O/kLrz2lAVcBKuMQc7tjOZgVw9U5enWNnblv7QDlSyM5uOiJgIq1yk/3YxFw1XhpdCzpZQ7VRrW1voyWkF2D7dtgpHVIApqgMzAfZFTXS/P0fcvyQurekiGpDGdqd2LeWzlvfeCzIaCgxkZlzZpG6kXZWLOSfTFyqdOFwkNaKfOElzq50CnjgXiKtrL0AuPnffiWWRlUfMM2WNwlxK3dVDHnXrSgieXPNjCJygYNZbQhlHArG/8FL1jBQLdLttMugJ4dHKxs/jJI/YC7/UlfGusD/b49kp+1lI7FZjPFafAgyizlrUXjfKrhqVxKG2eu6x6QP4rrDVpY0zZD5Wz7zczIZEauwa7wRUfoxOOMJLN4cZ8SRX4sOAdO2SnNihNKWZ7njFYnZ5QKWvRwdKqU4oP47kG0OADI+7CKH0bq8JYBhSLwm8XoQXjX/bkD/lv2vmV/uRjfn9/tYryQoIR7Y6C3WxFqNNJDGQf81WYckqPbITlsx+xfbcesoP3vE+3IKO7Tr8i9f8MDy/L+N0VnM+kcCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=85fca2889310971003eefef7dd03d61e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Onboarding Approval Flow">fa1cadb793c4171003eefef7dd03d64d</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>ead62674-2aa1-4145-8049-19e1193ec87e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 08:07:55</sys_created_on>
+        <sys_id>9c6bee809398971003eefef7dd03d60c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-10-28 08:24:24</sys_updated_on>
+        <ui_id>cf9707c8-a916-452f-a603-3d9f96827336</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1WXW/aMBT9K5WfoywhDVDeJiq0h62V1qp7KG3kxDfgzYkzxylliP++69gB1g9Gtz200iRefO719TnXxzdcrwhnZERgENF+FMVxFAZBhL80D9lJGJxAFg8HcUY8UtICMFPT+luiaSoAsTsqGgPWWWJwRBivK0GXVy4wppoKOTu6tNFszgVTUJLR9Y1HKqqwpgZFRqsHoUNJCZqCwNRLR+gpknpZWQyXSZtgsY+7e4/ObEAqZvgEHoF7DSUDJJJTUYNHCloyqqVakpFWDQIKKDsvxXKTMeelxoLE5N7X/AceOwxMXg6oLAMb2ywT1ywL56fYqwusnOlGudRsLnkGte0Jg5w2Qo93MZtwXmkuS7vFqra7pWiK8sy2hGwKdHeDSFMjCaiMTsPcycgv5nLxuWM54WXbEhcUMqNis6JaK5422vBZkZRivY6AMwQIKLB4UtCq4uUsqZS8421B5Ff4M4ELPxdygURqPit9mhkxPraa+hPET1v4iipuCn/CMrh57ZF6WY8FreutPmxs8r0x7KxapyuxrTFbMsUr/R4PuAMnYe25F9Dba7Z+ujVXzkGwpLV+vfsG5lJpI6I9BCVMG6zCVqsx+kQDS0I/axS2VPslLJI5V9aN6/UtqkCJbZtmSjaV2zntXtOUjKbkA1VsQRVMiTe1h7bwkMZBHGcnWT8Me73BMAiOo7gfQR5Hx9EQojYde5VwdmD++pY1aAvk/LyCr5KX5jZNFgrAl4zos+nr9ePJ8L9d+9v1slF5gHu7UTkx9j266uz7tKm7mQkFNlSDDTycmy5oa21nZ7h/djrkkOHZj4PgLc1P+1n44/H5WkblztfzN0Mzz/fZbjDY+mtBud4ZlsHjgdBWfrHxD2DQGf+LpfArIWf0VEoBtHzocLzPdxPHy7m798/cffyWrP23fw1ei7efc/TNTy6bh0kKCwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9c6bee809398971003eefef7dd03d60c"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -363,16 +411,16 @@
         <display_text/>
         <flow display_value="Onboarding Approval Flow">fa1cadb793c4171003eefef7dd03d64d</flow>
         <generation_source/>
-        <order>8</order>
+        <order>11</order>
         <parent_ui_id>1e9658f2-223c-4dbe-92f3-5d045f841294</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:41:53</sys_created_on>
         <sys_id>c747f1fb9308171003eefef7dd03d648</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:23:44</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:24:24</sys_updated_on>
         <ui_id>f1d6e407-1a4a-4d01-ae8f-6e84e28b4d22</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVy27iMBT9FeR1FOVBEWU3AiGN1CkSHbHpdCLHvgGPnEdth5Yi/n1uEidEUHWo1A0advdln3NyD37cE8HJhAyBe/6tP2KhH4aB5wXjoR+PwtgPeEgBfOKQjKaAnQpYrjjGWyrLKrHfTxVQAzzyXVYqBZk5HLDOhS4k3a1sG2bYRkiOdTJ5fHJIQRWeaECRyf6kdCkkSWOQ2LpsMZ1iNLuiinnOyhRxRaJN3tnJma0Mvs+wgkMVHN9zCLwayDggkIRKDQ5JacapydWOTIwqMYGk+SKTu65jIzLTEE3pqxZvePPQq/oSQGbMitCFkRWoSSczaugDnsxMqTq9csFAN5pwSGgpzbSfaxoWhRF51owYGst2Opdlmt03ipDugN73KDWCgKLiWSFvaCUPm/xl2YKci6yWxFKUOaOyi6gxSsSlqeDsCUioNU5pUYhsHRUq34p6GKGk7lpi4CYyf8E7tVhnLmUVbhdVpe4c87M6vaJKVCR+4DE4fHCI3umppFofqaCG0XNZIWmIWQpRrUItQVRvQjXMlCjMN7xqCxb4wbFLH998tGHs9rhQvTOPi/8aBYE/9od+9AbZNleRhwDinCpe0VfwXII250ZYdD2DZdfzOWtcALy1xs96Id4nYt1xlrvrzw7um4L1xs2XeWN8Td6wNK7eHP+yhBd8+Kfb26TaBbpnB4SEpKj8VXpeiAv7Bxg+Cr+1wbehyQ3PzXDZ0OfccQGH1h1zAZLrd0i11oAU0RqIGpIn9rDFwcoWu+fjyzzij7z6d0VO+W9ekae/XUivqzwJAAA=</values>
@@ -393,15 +441,39 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:38:22</sys_created_on>
         <sys_id>d3767d7b9308171003eefef7dd03d613</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:23:44</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:24:24</sys_updated_on>
         <ui_id>9065659c-19eb-4921-81ea-24663cda8073</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXWviQBT9KzLPIWQSK9a3RREWuhXs4ku3hEnmRgcmH52ZWK343/cmmcSgpWuhL7K+3a+Zc27OcZ4PRHAyIUPgHr2nozigQeB7nj8e0mgURNTnAQOgxCEZSwE7FcS54hhvmSyrxOEwVcAM8JC6cakUZOZ4xDoXupBsv7JtmIk3QnKsk8nzi0MKpvBEA4pMDmelayFJFoHE1mWL6Ryj2RdVzPO4TBFXKNrkg52c2crg5wwrOFTBoZ5DYGcg44BAEiY1OCRlGWcmV3syMarEBJLmi0zuu46NyExDNGU7Ld7x5qFX9SWAzGK7hC4M7YKadDJjhj3hybEpVbevXMSgm51wSFgpzbSfaxoWhRF51owYFsl2Opdlmj02GyHdAb3vUWoEAUXFs0Le0EqeNvnbsgU5F1m9EktR5jGTXcSMUSIqTQXnQEBCveOUFYXI1mGh8q2ohxFK6q4lBm4i8ze8U4t15rK4wu3iVpk7x/ysTq+YEhWJX3gMDh8dovd6KpnWJyq4w/C1rJA0xCyFsN5CvYKwVkI1HCtRmB941RYs8KNjRR/dfaaw+P4kqN6ZJ+HvQt+nYzqk4Ttk21yFHgKIcqZ4RV/BawnaXBph0fUMll3P16xxBfDWGr9rQXxMxLrjIvfQnx08NgXrjbtv88b4lrxhady8Of5lCc//9E+3p6TaBbpnB23wEfhTel7A6aXqz6pf0/sVqFq9zwVIrj+A2YodUoRlIGxgnwneFgcrW+wehG9TPR159e+GtP/fvAsvfwG2lXjKDgkAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d3767d7b9308171003eefef7dd03d613"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Onboarding Approval Flow">fa1cadb793c4171003eefef7dd03d64d</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>ead62674-2aa1-4145-8049-19e1193ec87e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 08:19:16</sys_created_on>
+        <sys_id>eafda6c49398971003eefef7dd03d6de</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-10-28 08:24:24</sys_updated_on>
+        <ui_id>a6db853f-7614-468e-8b61-70f02e9e4d31</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=eafda6c49398971003eefef7dd03d6de"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=fa1cadb793c4171003eefef7dd03d64d"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=fa1cadb793c4171003eefef7dd03d64d^sys_idNOT IN2df5bd3b9308171003eefef7dd03d6bb,37bd257b93c4171003eefef7dd03d634,8137bdbb9308171003eefef7dd03d6c8,9d71fd339308171003eefef7dd03d64f"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -422,10 +494,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:36:03</sys_created_on>
         <sys_id>2df5bd3b9308171003eefef7dd03d6bb</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:21</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:23</sys_updated_on>
         <ui_id>ead62674-2aa1-4145-8049-19e1193ec87e</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8lUJnWdDDcm3fggYBCrQN0AS5tIGwIlc2EYpUScqOa/jfu9TDNhoHLYocexOH2t2Z0az2gW5d0zp7r6+sFSsVLL89hoFQHqPnfaCgxmAZMK24cEKrogPCYAOy9Rf0yIVtJOweTghbC8kNDt0aMFTj0ATL/W9XbtdgIaFESYV3zgi1onLB6VTFUCULlrAsnWVpHKfzaVLOsjJJeQYIGb03Fn4Yyb371CHhq6z9PMLtOEkb7mklcRjgs0PFkUZXIC2GQQ2Kg9Nmd0QMAr9V8gSshXK94hqerfhJvdM89y9WSBrZYMfxWAxWjS5pwfC28QR7xEEpRwu1bGv1pdfhTcYKWunOTG4t9cPGk/YsBkrV3Vpvv44Db4TqBA6XUjOQxxM4sqFsHVr/YVBiTY2KGpqGzCkaozeiKyYudbSSdIgqqbc01CclAuaJR+QRRDeEX3fwAxjhVXymNlTc0yzBClZ0qaJ2zpCEQ2dL8aP1hHqBg5Sid4NesMyIxl3RnA0OrA/hy0iepXG/z6tpkvByNkmnPJtMk/l8suDx+8l8zsp0wQBwVkbEjdSBLKwDh4fD9zaOM96jlIAXkX6rtm+xFwvIqzyJ88t7MZ1d2osLG/H6MqR/WAb/+f5yF+I4/r8M58sgbNGHetDWDf/nXXj0we8n2D43HJmwROTeYx/Hv7i/2FEABDuHtto8eQkn7PALZXYkEA8GAAA=</values>
@@ -449,10 +521,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:00:10</sys_created_on>
         <sys_id>37bd257b93c4171003eefef7dd03d634</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:21</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:23</sys_updated_on>
         <ui_id>95fa4147-9561-48fd-bee0-b46d7d05d17b</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1UyW7bMBD9lUJnQdASG41vQYoABdoGaIJc2oAYkSObLUWqXOy4hv+9Qy220ThoUeTYm/g4y5vHedolJvgueHdvrpyTS50svjymidQRo+9doqHFZJFwo4X00mjWA2myBhXiBX0K6ToF24cjwldSCYtjtQ4s5Xi0yWL325XfdsgU1Kgo8c5bqZeULgWdmhya4pIXvCrnVZnn5duLop5XdVGKChAqipsSrydybz70SPoi69iPcDd1MlZEWkWeJvjkUQuk1g0oh2nSghbgjd0eEIsgbrU6Aiup/TBxC09O/qTa5WwWAxukGfkox+HIRqkmlYzkeNtFggPioVaThEaFVn8a5ogiYwNB+RORg6N62EXSkcVIqblbmc3nqeGN1P2A46UyHNThBJ5kqINHFx8GFbZUiLXQdSQO66xZyz6ZuLTZUtEha5TZUNO4KRnwSDwjjSC7IfxdDz+AlXGKj1SGkgeaNTjJWb9VVM5bGmHfy8J+hEhoGHAchQ1qUIDjVnb+ivqscWS9T5+v5Mk27nbX9EgeBSsyHixp4LNvRuo4EBHF/f5ryPOKn8bZoJnzYH0fwbxsKez5Wr9m6dfwxyXMmlmRz87742J+zh9nnPGyKco/mCI+4196Is/z/6Y4NYV0bFjucba++T974jEaYOjghr0RyKUjIvcRez/9zePFlhZA8lNoY+z3OMIR2/8C0mCV0xcGAAA=</values>
@@ -469,17 +541,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>7</order>
+        <order>10</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:41:28</sys_created_on>
         <sys_id>8137bdbb9308171003eefef7dd03d6c8</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:21</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:23</sys_updated_on>
         <ui_id>1e9658f2-223c-4dbe-92f3-5d045f841294</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -503,16 +575,50 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:16:22</sys_created_on>
         <sys_id>9d71fd339308171003eefef7dd03d64f</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:21</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:23</sys_updated_on>
         <ui_id>3d213df2-7580-4c98-8905-4662861caa10</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fa1cadb793c4171003eefef7dd03d64d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fa1cadb793c4171003eefef7dd03d64d^sys_idNOT IN75aea6c49398971003eefef7dd03d6eb,b5aea6c49398971003eefef7dd03d6ec"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fa1cadb793c4171003eefef7dd03d64d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.new_hire_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 08:22:13</sys_created_on>
+        <sys_id>75aea6c49398971003eefef7dd03d6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 08:22:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>27e3b91c-bf79-482a-9578-4433185ec9b0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>fa1cadb793c4171003eefef7dd03d64d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.joining_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 08:22:13</sys_created_on>
+        <sys_id>b5aea6c49398971003eefef7dd03d6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 08:22:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5a268d71-6b29-4224-bff6-a415d1f1036e</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=fa1cadb793c4171003eefef7dd03d64d"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_fa1cadb793c4171003eefef7dd03d64d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -578,7 +684,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>onboarding_approval_flow</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Onboarding Request Record","reference":"x_2218141_zenvor_0_onboarding_request","reference_display":"Onboarding Request","type":"reference","base_type":"reference","usedInstances":{"b25f0886-99c1-4537-b4ff-771ce5f12806":["record"],"5f411db6-24d3-4188-9d07-88cb29caae6b":["record"],"dae07063-ceb5-4ec1-84c7-5fc46b402ff3":["record"],"9065659c-19eb-4921-81ea-24663cda8073":["record"],"f1d6e407-1a4a-4d01-ae8f-6e84e28b4d22":["record"],"c5a79b8c-fc50-4711-a88a-c926aef7c44b":["record"],"a1cb163f-47d3-47d0-9ab5-e228a4dc05d0":["record"]},"attributes":{}},{"name":"Created_1.current.joining_date","label":"Trigger - Record Created➛Onboarding Request Record➛Joining date","reference":"","reference_display":"Joining date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_2218141_zenvor_0_onboarding_request","column_name":"joining_date","usedInstances":{"95fa4147-9561-48fd-bee0-b46d7d05d17b":["condition"]}},{"name":"Created_1.run_start_date_time","label":"Trigger - Record Created➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"95fa4147-9561-48fd-bee0-b46d7d05d17b":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.reporting_manager","label":"Trigger - Record Created➛Onboarding Request Record➛Reporting manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2218141_zenvor_0_onboarding_request","column_name":"reporting_manager","usedInstances":{"5f411db6-24d3-4188-9d07-88cb29caae6b":["approval_conditions"]}},{"name":"Created_1.current.reporting_manager.manager","label":"Trigger - Record Created➛Onboarding Request Record➛Reporting manager➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{}},{"name":"{{static.7ef558da93c8935003eefef7dd03d63f}}","label":"Onboarding HR","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"5f411db6-24d3-4188-9d07-88cb29caae6b":["approval_conditions"]}},{"name":"5f411db6-24d3-4188-9d07-88cb29caae6b.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"3601725a-2060-4ced-a93d-be36e325e282":["condition"],"ead62674-2aa1-4145-8049-19e1193ec87e":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"5f411db6-24d3-4188-9d07-88cb29caae6b.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"3601725a-2060-4ced-a93d-be36e325e282":["condition"],"ead62674-2aa1-4145-8049-19e1193ec87e":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.7ef558da93c8935003eefef7dd03d63f}}","label":"Onboarding HR","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"5f411db6-24d3-4188-9d07-88cb29caae6b":["approval_conditions"]}},{"name":"Created_1.current.reporting_manager.manager","label":"Trigger - Record Created➛Onboarding Request Record➛Reporting manager➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{}},{"name":"Created_1.current.reporting_manager","label":"Trigger - Record Created➛Onboarding Request Record➛Reporting manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_2218141_zenvor_0_onboarding_request","column_name":"reporting_manager","usedInstances":{"5f411db6-24d3-4188-9d07-88cb29caae6b":["approval_conditions"]}},{"name":"Created_1.run_start_date_time","label":"Trigger - Record Created➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"95fa4147-9561-48fd-bee0-b46d7d05d17b":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.joining_date","label":"Trigger - Record Created➛Onboarding Request Record➛Joining date","reference":"","reference_display":"Joining date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_2218141_zenvor_0_onboarding_request","column_name":"joining_date","usedInstances":{"95fa4147-9561-48fd-bee0-b46d7d05d17b":["condition"],"cf9707c8-a916-452f-a603-3d9f96827336":["due_date"],"5e63cad1-f7bf-46b0-a643-acad2b42e5a8":["due_date"],"a6db853f-7614-468e-8b61-70f02e9e4d31":[null]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Onboarding Request Record","reference":"x_2218141_zenvor_0_onboarding_request","reference_display":"Onboarding Request","type":"reference","base_type":"reference","usedInstances":{"b25f0886-99c1-4537-b4ff-771ce5f12806":["record"],"5f411db6-24d3-4188-9d07-88cb29caae6b":["record"],"dae07063-ceb5-4ec1-84c7-5fc46b402ff3":["record"],"9065659c-19eb-4921-81ea-24663cda8073":["record"],"f1d6e407-1a4a-4d01-ae8f-6e84e28b4d22":["record"],"c5a79b8c-fc50-4711-a88a-c926aef7c44b":["record"],"a1cb163f-47d3-47d0-9ab5-e228a4dc05d0":["record"],"cf9707c8-a916-452f-a603-3d9f96827336":["short_description","parent"],"5e63cad1-f7bf-46b0-a643-acad2b42e5a8":["parent"],"a6db853f-7614-468e-8b61-70f02e9e4d31":["record"]},"attributes":{}},{"name":"Created_1.current.new_hire_name","label":"Trigger - Record Created➛Onboarding Request Record➛New hire name","reference":"","reference_display":"New hire name","type":"string","base_type":"string","parent_table_name":"x_2218141_zenvor_0_onboarding_request","column_name":"new_hire_name","usedInstances":{"5e63cad1-f7bf-46b0-a643-acad2b42e5a8":["short_description"],"cf9707c8-a916-452f-a603-3d9f96827336":["short_description"],"a6db853f-7614-468e-8b61-70f02e9e4d31":[null]}},{"name":"Created_1.current.personal_email","label":"Trigger - Record Created➛Onboarding Request Record➛Personal email","reference":"","reference_display":"Personal email","type":"string","base_type":"string","parent_table_name":"x_2218141_zenvor_0_onboarding_request","column_name":"personal_email","usedInstances":{"a6db853f-7614-468e-8b61-70f02e9e4d31":["ah_to"]}}]</label_cache>
         <master>true</master>
         <name>Onboarding Approval Flow</name>
         <natlang/>
@@ -595,7 +701,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b1c8bd7f9308171003eefef7dd03d696</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -603,7 +709,7 @@
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:24</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:26</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -688,14 +794,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:48:21</sys_created_on>
         <sys_id>35c8bd7f9308171003eefef7dd03d6ad</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:23</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -773,14 +879,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:48:21</sys_created_on>
         <sys_id>fdc8bd7f9308171003eefef7dd03d699</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:23</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -818,7 +924,7 @@
         <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b1c8bd7f9308171003eefef7dd03d696^sys_idNOT IN79c8bd7f9308171003eefef7dd03d6c7,7dc8bd7f9308171003eefef7dd03d6c8,f1c8bd7f9308171003eefef7dd03d6c8,fdc8bd7f9308171003eefef7dd03d6c5"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b1c8bd7f9308171003eefef7dd03d696^sys_idNOT IN79c8bd7f9308171003eefef7dd03d6c7,7dc8bd7f9308171003eefef7dd03d6c8,b0be2e089398971003eefef7dd03d68a,b0be2e089398971003eefef7dd03d68e,b4be2e089398971003eefef7dd03d68b,f1c8bd7f9308171003eefef7dd03d6c8,fdc8bd7f9308171003eefef7dd03d6c5"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
@@ -852,21 +958,93 @@
         <display_text/>
         <flow display_value="Onboarding Approval Flow">b1c8bd7f9308171003eefef7dd03d696</flow>
         <generation_source/>
-        <order>8</order>
+        <order>11</order>
         <parent_ui_id>1e9658f2-223c-4dbe-92f3-5d045f841294</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:48:22</sys_created_on>
         <sys_id>7dc8bd7f9308171003eefef7dd03d6c8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 09:48:22</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:26</sys_updated_on>
         <ui_id>f1d6e407-1a4a-4d01-ae8f-6e84e28b4d22</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVy27iMBT9FeR1FOVBEWU3AiGN1CkSHbHpdCLHvgGPnEdth5Yi/n1uEidEUHWo1A0advdln3NyD37cE8HJhAyBe/6tP2KhH4aB5wXjoR+PwtgPeEgBfOKQjKaAnQpYrjjGWyrLKrHfTxVQAzzyXVYqBZk5HLDOhS4k3a1sG2bYRkiOdTJ5fHJIQRWeaECRyf6kdCkkSWOQ2LpsMZ1iNLuiinnOyhRxRaJN3tnJma0Mvs+wgkMVHN9zCLwayDggkIRKDQ5JacapydWOTIwqMYGk+SKTu65jIzLTEE3pqxZvePPQq/oSQGbMitCFkRWoSSczaugDnsxMqTq9csFAN5pwSGgpzbSfaxoWhRF51owYGst2Opdlmt03ipDugN73KDWCgKLiWSFvaCUPm/xl2YKci6yWxFKUOaOyi6gxSsSlqeDsCUioNU5pUYhsHRUq34p6GKGk7lpi4CYyf8E7tVhnLmUVbhdVpe4c87M6vaJKVCR+4DE4fHCI3umppFofqaCG0XNZIWmIWQpRrUItQVRvQjXMlCjMN7xqCxb4wbFLH998tGHs9rhQvTOPi/8aBYE/9od+9AbZNleRhwDinCpe0VfwXII250ZYdD2DZdfzOWtcALy1xs96Id4nYt1xlrvrzw7um4L1xs2XeWN8Td6wNK7eHP+yhBd8+Kfb26TaBbpnB4SEpKj8VXpeiAv7Bxg+Cr+1wbehyQ3PzXDZ0OfccQGH1h1zAZLrd0i11oAU0RqIGpIn9rDFwcoWu+fjyzzij7z6d0VO+W9ekae/XUivqzwJAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7dc8bd7f9308171003eefef7dd03d6c8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Onboarding Approval Flow">b1c8bd7f9308171003eefef7dd03d696</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>ead62674-2aa1-4145-8049-19e1193ec87e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 08:22:25</sys_created_on>
+        <sys_id>b0be2e089398971003eefef7dd03d68a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 08:22:25</sys_updated_on>
+        <ui_id>cf9707c8-a916-452f-a603-3d9f96827336</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1WXW/aMBT9K5WfoywhDVDeJiq0h62V1qp7KG3kxDfgzYkzxylliP++69gB1g9Gtz200iRefO719TnXxzdcrwhnZERgENF+FMVxFAZBhL80D9lJGJxAFg8HcUY8UtICMFPT+luiaSoAsTsqGgPWWWJwRBivK0GXVy4wppoKOTu6tNFszgVTUJLR9Y1HKqqwpgZFRqsHoUNJCZqCwNRLR+gpknpZWQyXSZtgsY+7e4/ObEAqZvgEHoF7DSUDJJJTUYNHCloyqqVakpFWDQIKKDsvxXKTMeelxoLE5N7X/AceOwxMXg6oLAMb2ywT1ywL56fYqwusnOlGudRsLnkGte0Jg5w2Qo93MZtwXmkuS7vFqra7pWiK8sy2hGwKdHeDSFMjCaiMTsPcycgv5nLxuWM54WXbEhcUMqNis6JaK5422vBZkZRivY6AMwQIKLB4UtCq4uUsqZS8421B5Ff4M4ELPxdygURqPit9mhkxPraa+hPET1v4iipuCn/CMrh57ZF6WY8FreutPmxs8r0x7KxapyuxrTFbMsUr/R4PuAMnYe25F9Dba7Z+ujVXzkGwpLV+vfsG5lJpI6I9BCVMG6zCVqsx+kQDS0I/axS2VPslLJI5V9aN6/UtqkCJbZtmSjaV2zntXtOUjKbkA1VsQRVMiTe1h7bwkMZBHGcnWT8Me73BMAiOo7gfQR5Hx9EQojYde5VwdmD++pY1aAvk/LyCr5KX5jZNFgrAl4zos+nr9ePJ8L9d+9v1slF5gHu7UTkx9j266uz7tKm7mQkFNlSDDTycmy5oa21nZ7h/djrkkOHZj4PgLc1P+1n44/H5WkblztfzN0Mzz/fZbjDY+mtBud4ZlsHjgdBWfrHxD2DQGf+LpfArIWf0VEoBtHzocLzPdxPHy7m798/cffyWrP23fw1ei7efc/TNTy6bh0kKCwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b0be2e089398971003eefef7dd03d68a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Onboarding Approval Flow">b1c8bd7f9308171003eefef7dd03d696</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>ead62674-2aa1-4145-8049-19e1193ec87e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 08:22:25</sys_created_on>
+        <sys_id>b0be2e089398971003eefef7dd03d68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 08:22:25</sys_updated_on>
+        <ui_id>a6db853f-7614-468e-8b61-70f02e9e4d31</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b0be2e089398971003eefef7dd03d68e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Onboarding Approval Flow">b1c8bd7f9308171003eefef7dd03d696</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>ead62674-2aa1-4145-8049-19e1193ec87e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 08:22:25</sys_created_on>
+        <sys_id>b4be2e089398971003eefef7dd03d68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 08:22:25</sys_updated_on>
+        <ui_id>5e63cad1-f7bf-46b0-a643-acad2b42e5a8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VwU7jMBD9lcrnKHJSCNDbqojTLkgL4kIhcu1J68Wxs7ZT6Fb59x3HaalYKlhpL0jbm2fejN97nkzvNkQKMiFFBvT4LCv4OBuPc0rz06NsXoznWS7GDOCIJESzGhDp2VxB2R8SsmKqDUHHS8/cI0aEdI1i69shMWWeKbMY3cQsX0olLGgyubtPSMMstvFgyWTzKvVRUorNQSH0JrA6QNKvmzdjX/drR5cxYawIfGhC4NmDFoBEKqYcJKRmWjBv7JpMvG0xYIGJK63WO8RSao8NScA+O/kLrz2lAVcBKuMQc7tjOZgVw9U5enWNnblv7QDlSyM5uOiJgIq1yk/3YxFw1XhpdCzpZQ7VRrW1voyWkF2D7dtgpHVIApqgMzAfZFTXS/P0fcvyQurekiGpDGdqd2LeWzlvfeCzIaCgxkZlzZpG6kXZWLOSfTFyqdOFwkNaKfOElzq50CnjgXiKtrL0AuPnffiWWRlUfMM2WNwlxK3dVDHnXrSgieXPNjCJygYNZbQhlHArG/8FL1jBQLdLttMugJ4dHKxs/jJI/YC7/UlfGusD/b49kp+1lI7FZjPFafAgyizlrUXjfKrhqVxKG2eu6x6QP4rrDVpY0zZD5Wz7zczIZEauwa7wRUfoxOOMJLN4cZ8SRX4sOAdO2SnNihNKWZ7njFYnZ5QKWvRwdKqU4oP47kG0OADI+7CKH0bq8JYBhSLwm8XoQXjX/bkD/lv2vmV/uRjfn9/tYryQoIR7Y6C3WxFqNNJDGQf81WYckqPbITlsx+xfbcesoP3vE+3IKO7Tr8i9f8MDy/L+N0VnM+kcCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b4be2e089398971003eefef7dd03d68b"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -935,10 +1113,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:48:22</sys_created_on>
         <sys_id>3dc8bd7f9308171003eefef7dd03d6bf</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:23</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:26</sys_updated_on>
         <ui_id>95fa4147-9561-48fd-bee0-b46d7d05d17b</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPxvijCWvfSkph0K2wlr5sxVxLcqJNljx9JM1M/vuuLMcJbcZW1se9WUf3Xp1zpIN7or3rvLP3+tJasVTk4stjQoQKGH73REHLyQWhWjHhhFbVACRkDdKHDfxkwnYStg8HhK6EZIaP0zow2OO4IRf9sy3BsKHJoMnPaU7LYl4WWVa8P8vreVnnBSuBQ4kDJdRcYuliT+PdzYAkv+Xntl3ArTNCLcf1zTjlbg9qwwKrPEsIf3JcMY58GpCWJ6QFxcBps50Qw4HdKnkAVkK5KLiFJyt+4oHFbBYKG44S6ejGtKxGpyLcXIEDpOKp82YyTgvKbTSH8Qa8dItjLBbcdkFqbHFQy323lr5Vn6IjZBpwdDHeIgneBaWB+qijuVvpzec9y2uhBlfGTakpyGkFDr2rvQt8esIlb3FQ1ULXoaNVZ/RaDM3IpU2XEhdpI/UGDw2vKwUaiKdoLKTXiF8N8AMYEVR8xDHYHGnWYAWthpeI49AmTnYJsVu7kGDtQSS6W/3wgWKUPIqroj+hhRrRuUs8ec1HHbvk5cM+etN9v8C7dpxVeUq9QVdc+k0LFSQidb7bffVZVtLjOuNVZR0YN1RUTrRY9jIcbzn6dSk7h1kzy7PZ6ZSdzU+l7ES+Xhmt4g/RCvf6l8nKsux/tP45WsJWMRCjtuHwN0zWY4hRPHPymgqL1O4D9mH/ZwkbW3xcgh5DG22+B1EHbPcL/VprvaMGAAA=</values>
@@ -962,10 +1140,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:48:22</sys_created_on>
         <sys_id>b1c8bd7f9308171003eefef7dd03d6c3</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:23</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:26</sys_updated_on>
         <ui_id>ead62674-2aa1-4145-8049-19e1193ec87e</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPjvFHnCV5KymFQbfCWvqyFXMtyYmYLHmSnDQz+e+7sh0nrBlbWR/3Zh3pXp1zdA9uiW5c3Tj7oK+sFWtFll+eAiKUx/C7JQoqTpaEasWEE1rlHRCQLcjGb+AnE7aWsH88IXQjJDN86FaDwRrHDVm2v2wJhgVlBGW8oDFNk1maRFEyn8bFLC3ihKXAIcWGEgou8ejqSOPdbYcEv+Xn9rXHrTNCrYf17dDl/ghqwzyrOAoIf3ZcMY58SpCWB6QCxcBpsx8Rw4HdKXkCNkK5XnAFz1b8wAuTLPMHS44S6eDGuMwHp3q4vAYHSKWhrjGjcVpQbntzGC+hkW51jvUH7movtS9xUMhjtZZNpT71jpCxwdnDNBZJ8Nor9dQHHeX9Ru8+H1neCNW5MmxKTUGOK3DoXdE4z6clXPIKG+UV1DU6mtdGb0VXjFyqcC1xEZZS7/BSP10hUE88RGMhvEH8uoMfwQiv4iO2weKeZgFW0LybRGyHNnFyCIjd25UEa08i0d38e+Mp9pIHcXnvjy+hRtTuCm/e8kHHIXg52Gcz3bZZOY1jVswmyZSlk2k8n08WLHo/mc9pkSwoAJ8VIbJFvSBz68Dxw+FrE0Up61EcpBfBeKu2r0vXArIyi6Pscrqms0vpupCrV0Yq+UOk/Hv+ZaKiKPofqX+OlLB5H4RBW3f5Gybqycenv3P0mgqL1B489uH4R/EbexwuQc+hnTbfvKgTdvgJqEJMaZsGAAA=</values>
@@ -982,17 +1160,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>7</order>
+        <order>10</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:48:22</sys_created_on>
         <sys_id>b5c8bd7f9308171003eefef7dd03d6c4</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:23</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:26</sys_updated_on>
         <ui_id>1e9658f2-223c-4dbe-92f3-5d045f841294</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -1016,16 +1194,50 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:48:22</sys_created_on>
         <sys_id>bdc8bd7f9308171003eefef7dd03d6c1</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:23</sys_updated_on>
+        <sys_updated_on>2026-10-28 08:22:26</sys_updated_on>
         <ui_id>3d213df2-7580-4c98-8905-4662861caa10</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b1c8bd7f9308171003eefef7dd03d696"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b1c8bd7f9308171003eefef7dd03d696^sys_idNOT IN74be2e089398971003eefef7dd03d6cb,b8be2e089398971003eefef7dd03d6cb"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b1c8bd7f9308171003eefef7dd03d696</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.new_hire_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 08:22:26</sys_created_on>
+        <sys_id>74be2e089398971003eefef7dd03d6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 08:22:26</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>27e3b91c-bf79-482a-9578-4433185ec9b0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>b1c8bd7f9308171003eefef7dd03d696</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.joining_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 08:22:26</sys_created_on>
+        <sys_id>b8be2e089398971003eefef7dd03d6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Zenvora Employee Onboarding">d1b26f7193c8135003eefef7dd03d612</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 08:22:26</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5a268d71-6b29-4224-bff6-a415d1f1036e</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=b1c8bd7f9308171003eefef7dd03d696"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_variable_b1c8bd7f9308171003eefef7dd03d696"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -1087,18 +1299,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"56c8bd7f9308171003eefef7dd03d6ef","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
         <plan_id>fa1cadb793c4171003eefef7dd03d64d</plan_id>
-        <snapshot>0ce042bf9348171003eefef7dd03d6ad</snapshot>
+        <snapshot>792faa489398971003eefef7dd03d6d0</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-27 09:48:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>56c8bd7f9308171003eefef7dd03d6ef</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-27 10:22:24</sys_updated_on>
-        <trigger display_value="">e490467f9348171003eefef7dd03d620</trigger>
+        <sys_updated_on>2026-10-28 08:22:28</sys_updated_on>
+        <trigger display_value="">19be6e089398971003eefef7dd03d629</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=fa1cadb793c4171003eefef7dd03d64d"/>
 </record_update>
