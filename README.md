@@ -1,3 +1,4 @@
+Markdown
 # 🚀 Zenvora Employee Onboarding Application
 
 An enterprise-grade, custom ServiceNow Scoped Application designed to automate the cross-departmental onboarding lifecycle of new hires. From initial HR request submission to dynamic multi-tier manager approvals, role-based access security, and automated IT/Facilities downstream fulfillment provisioning.
@@ -10,7 +11,7 @@ An enterprise-grade, custom ServiceNow Scoped Application designed to automate t
 - [System Architecture](#️-system-architecture)
 - [Key Features & Capabilities](#-key-features--capabilities)
 - [Repository Directory Structure](#-repository-directory-structure)
-- [Visual Proof of Work](#-visual-proof-of-work-phases-08)
+- [Visual Proof of Work](#-visual-proof-of-work)
 - [Installation & Deployment Guide](#-installation--deployment-guide)
 - [Author & Maintainer](#-author--maintainer)
 
@@ -75,13 +76,14 @@ Zenvora-Employee-Onboarding/
 │   ├── 05-flow-designer-logic.png
 │   ├── 06-approved-record.png
 │   ├── 07-fulfillment-tasks.png
-│   └── 08-email-notification.png
+│   ├── 08-email-notification.png
+│   └── 09-service-catalog-intake.png
 ├── update_runs/
 │   └── sys_remote_app_x_2218141_zenvor_0.xml
 ├── .gitignore
 ├── LICENSE
 └── README.md
-📸 Visual Proof of Work (Phases 0–8)
+📸 Visual Proof of Work
 1. Studio Workspace & Application Structure
 Classic Studio workspace view displaying the scoped application file tree, custom table definitions, and application components.
 
@@ -106,6 +108,9 @@ Generated child catalog tasks (sc_task) automatically spawned for hardware and s
 8. Outbound Email Notification Log
 Rendered system log proof verifying outbound send-ready SMTP welcome email generation with dynamically populated variables.
 
+9. Service Catalog Intake Portal
+User-facing Service Catalog interface featuring structured container variable sets, mandatory field rules, and joining date validation.
+
 💻 Installation & Deployment Guide
 Log into your ServiceNow instance as System Administrator.
 
@@ -125,31 +130,4 @@ Assign target roles (x_2218141_zenvor_0.onboarding_request_user) to test user ac
 Developer: ServiceNow Application Developer (Rohit Kumar Patel)
 
 Instance: PDI dev350797
-## 📸 Visual Proof of Work (Phases 0–5)
 
-### 1. Studio Workspace & Application Structure
-![Studio Workspace](01-studio-workspace.png)
-
-### 2. Data Model & Schema Definition
-![Data Model Schema](02-data-model-schema.png)
-
-### 3. Role-Based Access Control (ACL)
-![ACL Security](03-acl-security.png)
-
-### 4. Custom Form Layout & UI Design
-![Form UI Design](04-form-ui-design.png)
-
-### 5. Automated Workflow Logic (Flow Designer)
-![Flow Designer Logic](05-flow-designer-logic.png)
-
-### 6. Approved Onboarding Request Record Lifecycle
-![Approved Record](06-approved-record.png)
-
-### 7. Downstream Fulfillment Tasks
-![Fulfillment Tasks](07-fulfillment-tasks.png)
-
-### 8. Outbound Email Notification Log
-![Email Log](08-email-notification.png)
-
-### 9. Service-catalog-intake
-![Service Catalog Intake](09-service-catalog-intake.png)
