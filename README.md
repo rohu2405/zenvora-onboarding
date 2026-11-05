@@ -181,3 +181,6 @@ Instance: PDI dev350797
 
 ### 8. Outbound Email Notification Log
 ![Email Log](08-email-notification.png)
+
+### 9. Service-catalog-intake
+![Service Catalog Intake](09-service-catalog-intake.png)
