@@ -1,76 +1,59 @@
-🚀 Zenvora Employee Onboarding Application
+# 🚀 Zenvora Employee Onboarding Application
 
 An enterprise-grade, custom ServiceNow Scoped Application designed to automate the cross-departmental onboarding lifecycle of new hires. From initial HR request submission to dynamic multi-tier manager approvals, role-based access security, and automated IT/Facilities downstream fulfillment provisioning.
 
-📑 Table of Contents
+---
 
-Executive Summary
+## 📑 Table of Contents
 
-System Architecture
+- [Executive Summary](#-executive-summary)
+- [System Architecture](#️-system-architecture)
+- [Key Features & Capabilities](#-key-features--capabilities)
+- [Repository Directory Structure](#-repository-directory-structure)
+- [Visual Proof of Work](#-visual-proof-of-work-phases-08)
+- [Installation & Deployment Guide](#-installation--deployment-guide)
+- [Author & Maintainer](#-author--maintainer)
 
-Key Features & Capabilities
+---
 
-Repository Directory Structure
-
-Technical Implementation & Proof of Work
-
-1. Scoped Application Architecture
-
-2. Data Model & Database Schema
-
-3. Security & Access Control Lists (ACLs)
-
-4. UI & Form Layout Design
-
-5. Process Automation via Flow Designer
-
-6. Request Lifecycle Execution
-
-7. Multi-Department Task Provisioning
-
-8. Notification Engine Log Verification
-
-Installation & Deployment Guide
-
-📌 Executive Summary
+## 📌 Executive Summary
 
 Manual employee onboarding processes often lead to delayed IT hardware provisioning, communication gaps, and security compliance risks. The Zenvora Employee Onboarding application standardizes and automates this end-to-end process within ServiceNow.
 
 By leveraging Flow Designer, Catalog Task automation, and Scoped Access Control Lists (ACLs), Zenvora ensures that upon manager approval, necessary fulfillment tasks (Hardware setup, Service Desk access badges) and external candidate communication are generated automatically.
 
-🏗️ System Architecture
+---
 
-                                ┌────────────────────────────────────────┐
-                                │   HR / Hiring Manager Submission       │
-                                └──────────────────┬─────────────────────┘
-                                                   │
-                                                   ▼
-                                ┌────────────────────────────────────────┐
-                                │   Custom Table: onboarding_request     │
-                                └──────────────────┬─────────────────────┘
-                                                   │
-                                                   ▼
-                                ┌────────────────────────────────────────┐
-                                │      Flow Designer Approval Engine     │
-                                └──────────────────┬─────────────────────┘
-                                                   │
-                                     ┌─────────────┴─────────────┐
-                                     │                           │
-                                     ▼                           ▼
-                             [ State: Approved ]         [ State: Rejected ]
-                                     │                           │
-                   ┌─────────────────┼─────────────────┐         └─► Terminate Process
-                   ▼                 ▼                 ▼
-          ┌────────────────┐ ┌───────────────┐ ┌────────────────┐
-          │ IT Hardware    │ │ Service Desk  │ │ Outbound Email │
-          │ Task Generation│ │ Access Task   │ │ Notification   │
-          │ (sc_task)      │ │ (sc_task)     │ │ (sys_email)    │
-          └────────────────┘ └───────────────┘ └────────────────┘
+## 🏗️ System Architecture
 
-
-
+```text
+                        ┌────────────────────────────────────────┐
+                        │   HR / Hiring Manager Submission       │
+                        └──────────────────┬─────────────────────┘
+                                           │
+                                           ▼
+                        ┌────────────────────────────────────────┐
+                        │   Custom Table: onboarding_request     │
+                        └──────────────────┬─────────────────────┘
+                                           │
+                                           ▼
+                        ┌────────────────────────────────────────┐
+                        │      Flow Designer Approval Engine     │
+                        └──────────────────┬─────────────────────┘
+                                           │
+                               ┌───────────┴─────────────┐
+                               │                         │
+                               ▼                         ▼
+                      [ State: Approved ]       [ State: Rejected ]
+                               │                         │
+                 ┌─────────────┼─────────────┐           └─► Terminate Process
+                 ▼             ▼             ▼
+          ┌─────────────┐ ┌───────────────┐ ┌────────────────┐
+          │ IT Hardware │ │ Service Desk  │ │ Outbound Email │
+          │ Task Gen    │ │ Access Task   │ │ Notification   │
+          │ (sc_task)   │ │ (sc_task)     │ │ (sys_email)    │
+          └─────────────> └───────────────┘ └────────────────┘
 ✨ Key Features & Capabilities
-
 Scope Isolation: Engineered inside x_2218141_zenvor_0 to prevent global namespace pollution and protect application assets.
 
 Role-Based Security: Custom ACLs enforcing strict access so managers and users only view records relevant to their organizational unit.
@@ -82,61 +65,48 @@ Parallel Task Generation: Post-approval instantiation of fulfillment tasks (sc_t
 Automated SMTP Email Dispatch: HTML-formatted welcome email sent to candidate personal email upon request approval.
 
 📂 Repository Directory Structure
-
+Plaintext
 Zenvora-Employee-Onboarding/
 ├── assets/
-│   ├── 01_studio_scope_overview.png
-│   ├── 02_table_schema_dictionary.png
-│   ├── 03_security_acl_configuration.png
-│   ├── 04_form_layout_ui_design.png
-│   ├── 05_flow_designer_logic.png
-│   ├── 06_approved_record_lifecycle.png
-│   ├── 07_downstream_catalog_tasks.png
-│   └── 08_outbound_email_log.png
+│   ├── 01-studio-workspace.png
+│   ├── 02-data-model-schema.png
+│   ├── 03-acl-security.png
+│   ├── 04-form-ui-design.png
+│   ├── 05-flow-designer-logic.png
+│   ├── 06-approved-record.png
+│   ├── 07-fulfillment-tasks.png
+│   └── 08-email-notification.png
 ├── update_runs/
 │   └── sys_remote_app_x_2218141_zenvor_0.xml
 ├── .gitignore
 ├── LICENSE
 └── README.md
+📸 Visual Proof of Work (Phases 0–8)
+1. Studio Workspace & Application Structure
+Classic Studio workspace view displaying the scoped application file tree, custom table definitions, and application components.
 
+2. Data Model & Schema Definition
+Schema configuration for the custom x_2218141_zenvor_0_onboarding_request table detailing fields, data types, and mandatory constraints.
 
+3. Role-Based Access Control (ACL)
+Role-based access control rule configuration restricting read and write privileges on the onboarding request table to authorized roles.
 
-🔍 Technical Implementation & Proof of Work
+4. Custom Form Layout & UI Design
+Backend user interface form layout featuring structured sections for new hire details, joining date selection, and manager assignment.
 
-1. Scoped Application Architecture
+5. Automated Workflow Logic (Flow Designer)
+End-to-end Flow Designer workflow canvas illustrating trigger conditions, validation logic, dynamic manager approval routing, and task creation.
 
-Application assets are grouped and isolated under scope x_2218141_zenvor_0 in Classic Studio, maintaining source control links with Git.
+6. Approved Onboarding Request Record Lifecycle
+Live execution record demonstrating full lifecycle progression, showing active approval state set to Approved by hiring manager.
 
-2. Data Model & Database Schema
+7. Downstream Fulfillment Tasks
+Generated child catalog tasks (sc_task) automatically spawned for hardware and service desk provisioning upon request approval.
 
-Custom table x_2218141_zenvor_0_onboarding_request extends task table with customized dictionary entries for new hire metadata, joining dates, department mappings, and equipment requirements.
-
-3. Security & Access Control Lists (ACLs)
-
-Role-based record-level security (read, create, write) restricting access to authorized roles (onboarding_request_user, hiring_manager).
-
-4. UI & Form Layout Design
-
-Clean, responsive user form interface with section grouping, reference lookups, dynamic choice lists, and mandatory data entry rules.
-
-5. Process Automation via Flow Designer
-
-Multi-step workflow featuring date parameter validation, manager approval actions, dynamic record state updates, multi-task spawning, and SMTP email dispatch.
-
-6. Request Lifecycle Execution
-
-Verified record execution showing successful manager approval state updates (Meera Kulkarni sign-off on request ONB0001014).
-
-7. Multi-Department Task Provisioning
-
-Automated creation of child catalog tasks (sc_task) routing hardware configuration to Hardware team and physical access setup to Service Desk.
-
-8. Notification Engine Log Verification
-
-System log proof verifying outbound send-ready SMTP welcome email generation with dynamically populated join date and candidate parameters.
+8. Outbound Email Notification Log
+Rendered system log proof verifying outbound send-ready SMTP welcome email generation with dynamically populated variables.
 
 💻 Installation & Deployment Guide
-
 Log into your ServiceNow instance as System Administrator.
 
 Navigate to ServiceNow Classic Studio (/$studio.do).
@@ -152,8 +122,7 @@ Open Flow Designer and activate Onboarding Approval Flow.
 Assign target roles (x_2218141_zenvor_0.onboarding_request_user) to test user accounts.
 
 👤 Author & Maintainer
-
-Developer: ServiceNow Application Developer
+Developer: ServiceNow Application Developer (Rohit Kumar Patel)
 
 Instance: PDI dev350797
 ## 📸 Visual Proof of Work (Phases 0–5)
