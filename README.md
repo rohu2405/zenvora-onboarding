@@ -65,24 +65,6 @@ Parallel Task Generation: Post-approval instantiation of fulfillment tasks (sc_t
 
 Automated SMTP Email Dispatch: HTML-formatted welcome email sent to candidate personal email upon request approval.
 
-📂 Repository Directory Structure
-Plaintext
-Zenvora-Employee-Onboarding/
-├── assets/
-│   ├── 01-studio-workspace.png
-│   ├── 02-data-model-schema.png
-│   ├── 03-acl-security.png
-│   ├── 04-form-ui-design.png
-│   ├── 05-flow-designer-logic.png
-│   ├── 06-approved-record.png
-│   ├── 07-fulfillment-tasks.png
-│   ├── 08-email-notification.png
-│   └── 09-service-catalog-intake.png
-├── update_runs/
-│   └── sys_remote_app_x_2218141_zenvor_0.xml
-├── .gitignore
-├── LICENSE
-└── README.md
 📸 Visual Proof of Work
 1. Studio Workspace & Application Structure
 Classic Studio workspace view displaying the scoped application file tree, custom table definitions, and application components.
@@ -130,32 +112,3 @@ Assign target roles (x_2218141_zenvor_0.onboarding_request_user) to test user ac
 Developer: ServiceNow Application Developer (Rohit Kumar Patel)
 
 Instance: PDI dev350797
-
-
-### 1. Studio Workspace & Application Structure
-![Studio Workspace](01-studio-workspace.png)
-
-### 2. Data Model & Schema Definition
-![Data Model Schema](02-data-model-schema.png)
-
-### 3. Role-Based Access Control (ACL)
-![ACL Security](03-acl-security.png)
-
-### 4. Custom Form Layout & UI Design
-![Form UI Design](04-form-ui-design.png)
-
-### 5. Automated Workflow Logic (Flow Designer)
-![Flow Designer Logic](05-flow-designer-logic.png)
-
-### 6. Approved Onboarding Request Record Lifecycle
-![Approved Record](06-approved-record.png)
-
-### 7. Downstream Fulfillment Tasks
-![Fulfillment Tasks](07-fulfillment-tasks.png)
-
-### 8. Outbound Email Notification Log
-![Email Log](08-email-notification.png)
-
-### 9. Service Catalog Intake Portal
-![Service Catalog Intake](09-service-catalog-intake.png)
-
