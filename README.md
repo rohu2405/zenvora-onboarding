@@ -10,7 +10,6 @@ An enterprise-grade, custom ServiceNow Scoped Application designed to automate t
 - [Executive Summary](#-executive-summary)
 - [System Architecture](#️-system-architecture)
 - [Key Features & Capabilities](#-key-features--capabilities)
-- [Repository Directory Structure](#-repository-directory-structure)
 - [Visual Proof of Work](#-visual-proof-of-work)
 - [Installation & Deployment Guide](#-installation--deployment-guide)
 - [Author & Maintainer](#-author--maintainer)
